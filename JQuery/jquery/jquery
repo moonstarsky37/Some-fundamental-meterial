@@ -1,0 +1,7 @@
+$(document).ready(function(){
+  $(".btn.append").click(function(){
+    $("p").append(function(n){
+      return "<b>This p element has index" + n + ""</b>"
+    })
+  });
+});
